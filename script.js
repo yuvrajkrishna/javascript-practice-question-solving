@@ -1,4 +1,11 @@
-function sayHello(){
-    return "Hello JavaScript"
+// function sayHello(){
+//     return "Hello JavaScript"
+// }
+// console.log(sayHello())
+
+
+function add(a,b){
+    return a+b
 }
-console.log(sayHello())
+
+console.log(add(2,4))
