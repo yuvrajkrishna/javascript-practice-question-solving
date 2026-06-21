@@ -42,9 +42,15 @@
 // }
 // parent()
 
+// let arr = ["Apple","Banana","Chikoo","Dragon Fruit","Emblica"]
+// console.log(arr)
+// arr.push("Mango")
+// console.log(arr)
+// arr.shift()
+// console.log(arr)
+
+
 let arr = ["Apple","Banana","Chikoo","Dragon Fruit","Emblica"]
-console.log(arr)
-arr.push("Mango")
-console.log(arr)
-arr.shift()
-console.log(arr)
+for(let i = 0 ; i < arr.length ; i++){
+    console.log(arr[i])
+}
