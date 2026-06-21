@@ -33,12 +33,18 @@
 //     console.log("Run Instantly")
 // })()
 
-function parent (){
-    let a = 12 ;
-    function child () {
-        console.log(a)
-    }
-    child()
-}
+// function parent (){
+//     let a = 12 ;
+//     function child () {
+//         console.log(a)
+//     }
+//     child()
+// }
+// parent()
 
-parent()
+let arr = ["Apple","Banana","Chikoo","Dragon Fruit","Emblica"]
+console.log(arr)
+arr.push("Mango")
+console.log(arr)
+arr.shift()
+console.log(arr)
