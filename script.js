@@ -50,7 +50,17 @@
 // console.log(arr)
 
 
-let arr = ["Apple","Banana","Chikoo","Dragon Fruit","Emblica"]
-for(let i = 0 ; i < arr.length ; i++){
-    console.log(arr[i])
+// let arr = ["Apple","Banana","Chikoo","Dragon Fruit","Emblica"]
+// for(let i = 0 ; i < arr.length ; i++){
+//     console.log(arr[i])
+// }
+
+let person = {
+    name : "aryan",
+    age : 21 , 
+    city : "surat"
 }
+
+console.log(person.name)
+console.log(person.age)
+console.log(person.city)
