@@ -55,16 +55,18 @@
 //     console.log(arr[i])
 // }
 
-let person = {
-    name : "aryan",
-    age : 21 , 
-    city : "surat"
-}
+// let person = {
+//     name : "aryan",
+//     age : 21 , 
+//     city : "surat"
+// }
+// // console.log(person.name)
+// // console.log(person.age)
+// // console.log(person.city)
+// for(let key in person){
+//     console.log(person[key])
+// }
 
-// console.log(person.name)
-// console.log(person.age)
-// console.log(person.city)
-
-for(let key in person){
-    console.log(person[key])
-}
+setTimeout(() => {
+    console.log("Time 's Up ")
+}, 4000);
