@@ -61,6 +61,10 @@ let person = {
     city : "surat"
 }
 
-console.log(person.name)
-console.log(person.age)
-console.log(person.city)
+// console.log(person.name)
+// console.log(person.age)
+// console.log(person.city)
+
+for(let key in person){
+    console.log(person[key])
+}
