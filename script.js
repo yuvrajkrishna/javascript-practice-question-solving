@@ -29,6 +29,16 @@
 // addUnlimited(1,2,3,4,5,6,7,8,9,10)
 
 
-(function(){
-    console.log("Run Instantly")
-})()
+// (function(){
+//     console.log("Run Instantly")
+// })()
+
+function parent (){
+    let a = 12 ;
+    function child () {
+        console.log(a)
+    }
+    child()
+}
+
+parent()
