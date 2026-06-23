@@ -155,9 +155,9 @@
 // },0)
 // console.log(newArr)
 
-let names = ["yuvraj","raj","aryan","anonymous",""]
-let newArr = names.some(function(val){
-    return val.length > 3
-})
+// let names = ["yuvraj","raj","aryan","anonymous",""]
+// let newArr = names.some(function(val){
+//     return val.length > 3
+// })
+// console.log(newArr)
 
-console.log(newArr)
