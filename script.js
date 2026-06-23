@@ -161,9 +161,17 @@
 // })
 // console.log(newArr)
 
-let user = {
-    name : "Harsh",
-    age : 27,
-    email : "h@h.h"
-}
-Object.freeze(user)
+// let user = {
+//     name : "Harsh",
+//     age : 27,
+//     email : "h@h.h"
+// }
+// Object.freeze(user)
+// let user = {
+//     name : "Harsh",
+//     age : 27,
+//     email : "h@h.h"
+// }
+// Object.freeze(user)
+// freeze doesn't allow to change the value and addition of any new key value pair
+// seal allow to change the value but it doesn't allow for addition of any new key value pair
