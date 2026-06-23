@@ -143,8 +143,14 @@
 // })
 // console.log(newArr)
 
-let arr = [1,2,3,4,5]
-let newArr = arr.filter(function(val){
-    return val%2==0
-})
+// let arr = [1,2,3,4,5]
+// let newArr = arr.filter(function(val){
+//     return val%2==0
+// })
+// console.log(newArr)
+
+let arr = [1000,2000,3000]
+let newArr = arr.reduce(function(acc,val){
+    return acc + val;
+},0)
 console.log(newArr)
