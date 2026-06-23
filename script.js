@@ -149,8 +149,15 @@
 // })
 // console.log(newArr)
 
-let arr = [1000,2000,3000]
-let newArr = arr.reduce(function(acc,val){
-    return acc + val;
-},0)
+// let arr = [1000,2000,3000]
+// let newArr = arr.reduce(function(acc,val){
+//     return acc + val;
+// },0)
+// console.log(newArr)
+
+let names = ["yuvraj","raj","aryan","anonymous",""]
+let newArr = names.some(function(val){
+    return val.length > 3
+})
+
 console.log(newArr)
