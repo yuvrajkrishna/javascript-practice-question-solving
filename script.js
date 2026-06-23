@@ -67,6 +67,15 @@
 //     console.log(person[key])
 // }
 
-setTimeout(() => {
-    console.log("Time 's Up ")
-}, 4000);
+// setTimeout(() => {
+//     console.log("Time 's Up ")
+// }, 4000);
+
+function runTwice(fn){
+    fn()
+    fn()
+}
+
+runTwice(function(){
+    console.log("HELLO")
+})
