@@ -161,3 +161,9 @@
 // })
 // console.log(newArr)
 
+let user = {
+    name : "Harsh",
+    age : 27,
+    email : "h@h.h"
+}
+Object.freeze(user)
