@@ -95,8 +95,45 @@
 // impure(global)
 // impure(global)
 
-function abcd ({name,age}){
-    console.log(name)
-    console.log(age)
-}
-abcd({name : "Harsh" , age : 27})
+// function abcd ({name,age}){
+//     console.log(name)
+//     console.log(age)
+// }
+// abcd({name : "Harsh" , age : 27})
+
+//  this ek aisa keyword hai joh dynamic hai iski value badal jati hai baarbaar 
+// console.log(this)
+// function abcd(){
+//     console.log(this)
+// }
+// abcd()
+// let obj = {
+//     name : "harsh",
+//     fnc : function(){
+//         console.log(this)
+//     }
+// }
+// obj.fnc()
+
+// let obj = {
+//     name : "harsh",
+//     fnc : ()=>{
+//         console.log(this)
+//     }
+// }
+// obj.fnc()
+
+// function abd (){
+//     console.log(this)
+// }
+// abd()
+
+
+// Global this value = window
+// inside the simple function = window
+// function inside the object this value = object itself
+// arrow function inside the object this value = window
+// inside the arrow function the value of this = window
+// imp note : arrow function takes this value from parent
+
+
