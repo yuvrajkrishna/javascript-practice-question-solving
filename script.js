@@ -71,11 +71,26 @@
 //     console.log("Time 's Up ")
 // }, 4000);
 
-function runTwice(fn){
-    fn()
-    fn()
-}
+// function runTwice(fn){
+//     fn()
+//     fn()
+// }
 
-runTwice(function(){
-    console.log("HELLO")
-})
+// runTwice(function(){
+//     console.log("HELLO")
+// })
+
+
+function pure(a,b){
+    console.log(a+b)
+}
+pure(1,2)
+pure(1,2)
+
+let global = 0
+function impure(a){
+    global++
+    console.log(a+global)
+}
+impure(global)
+impure(global)
