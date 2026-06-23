@@ -81,16 +81,22 @@
 // })
 
 
-function pure(a,b){
-    console.log(a+b)
-}
-pure(1,2)
-pure(1,2)
+// function pure(a,b){
+//     console.log(a+b)
+// }
+// pure(1,2)
+// pure(1,2)
 
-let global = 0
-function impure(a){
-    global++
-    console.log(a+global)
+// let global = 0
+// function impure(a){
+//     global++
+//     console.log(a+global)
+// }
+// impure(global)
+// impure(global)
+
+function abcd ({name,age}){
+    console.log(name)
+    console.log(age)
 }
-impure(global)
-impure(global)
+abcd({name : "Harsh" , age : 27})
